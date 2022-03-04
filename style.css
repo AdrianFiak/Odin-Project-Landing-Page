@@ -65,11 +65,16 @@ h3{
 .sign-up-button{
     background-color:#3882f6;
     color: white;
-    padding: 5px 20px;
-    border-style:groove;
-    border-color: white;
-    border-radius: 5px;
+    padding: 5px 40px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.two{
+    border-color: white;
+    margin-right: 100px;
 }
 
 .sign-up{
@@ -120,4 +125,28 @@ h2{
     align-self: flex-end;
     margin:0px;
     font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+}
+
+
+.section3{
+    display: flex;
+    justify-content:space-between;
+    margin:5% 15%;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px;
+    border-radius: 10px;
+    color:white;
+    font-size: 30px;
+}
+
+.section3-text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 100PX;
+}
+.section3-text p{
+    margin:0;
 }
